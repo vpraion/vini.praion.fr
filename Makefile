@@ -25,11 +25,14 @@ help:
 
 # Run in development mode (builds dev image and runs nodemon)
 dev:
-	NODE_ENV=development BUILD_TARGET=$(PROFILE_DEV) $(COMPOSE) -p $(PROJECT_NAME) --profile $(PROFILE_DEV) up --build
+	NODE_ENV=development BUILD_TARGET=$(PROFILE_DEV) $(COMPOSE) -p $(PROJECT_NAME) \
+	--profile $(PROFILE_DEV) -f docker-compose.yml -f docker-compose.dev.yml up \
+	--build
 
 # Run in production mode (builds optimized prod image)
 prod:
-	NODE_ENV=production BUILD_TARGET=$(PROFILE_PROD) $(COMPOSE) -p $(PROJECT_NAME) --profile $(PROFILE_PROD) up --build -d
+	NODE_ENV=production BUILD_TARGET=$(PROFILE_PROD) $(COMPOSE) -p $(PROJECT_NAME) \
+	--profile $(PROFILE_PROD) -f docker-compose.yml up --build -d
 
 # Stop and remove all project containers
 down:

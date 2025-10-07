@@ -7,9 +7,6 @@ services:
       target: ${BUILD_TARGET:-dev}
     container_name: ${CONTAINER_NAME_WEB}
     working_dir: /app
-    volumes:
-      # Mount local source code (for hot reload in dev)
-      - ./app:/app
     ports:
       # Map host and container ports
       - "${HOST_PORT_WEB}:${SERVICE_PORT_WEB}"
