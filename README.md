@@ -52,6 +52,8 @@ This project started during my transition into unemployment as a way to keep lea
 
 ```bash
 git clone https://github.com/vpraion/vini.praion.fr.git
+# First time usage
+make init
 # Dev environment
 make dev
 # Prod environment

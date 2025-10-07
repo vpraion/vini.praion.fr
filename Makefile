@@ -23,6 +23,9 @@ help:
 	@echo "  make down        -> Stop containers"
 	@echo "  make logs        -> Show container logs"
 
+init:
+	@if [[ ! -f .env ]]; then cp .env.dist .env; fi
+
 # Run in development mode (builds dev image and runs nodemon)
 dev:
 	NODE_ENV=development BUILD_TARGET=$(PROFILE_DEV) $(COMPOSE) -p $(PROJECT_NAME) \
