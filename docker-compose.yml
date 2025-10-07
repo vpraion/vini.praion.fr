@@ -1,12 +1,24 @@
 services:
   web:
-    image: "node:latest"
-    container_name: "${CONTAINER_NAME_WEB}"
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+      # Select build stage dynamically (dev or prod, defaults to dev)
+      target: ${BUILD_TARGET:-dev}
+    container_name: ${CONTAINER_NAME_WEB}
+    working_dir: /app
     volumes:
-      - "./app:/app"
+      # Mount local source code (for hot reload in dev)
+      - ./app:/app
     ports:
+      # Map host and container ports
       - "${HOST_PORT_WEB}:${SERVICE_PORT_WEB}"
     environment:
+      # Pass runtime environment variables
       - SERVICE_PORT_WEB=${SERVICE_PORT_WEB}
-    working_dir: "/app"
-    command: ["npm", "run", "dev"]
+      - NODE_ENV=${NODE_ENV:-development}
+      # Run entrypoint script (ensure executable permissions first)
+    entrypoint: ["sh", "-c", "chmod +x ./entrypoint.sh && ./entrypoint.sh"]
+    profiles:
+      - dev
+      - prod

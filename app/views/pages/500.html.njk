@@ -6,8 +6,7 @@
             <h1 class="mb-5" aria-label="sad-emoji">🤯</h1>
             <h2 class="mb-5">{{ t("500.title")}}</h2>
             <p>{{ t("500.content") }}</p>
-            {# TODO! Define the PROD and DEV mode #}
-            {% if DEV %}
+            {% if (NODE_ENV == "development") %}
                 <pre>{{ error }}</pre>
             {% endif %}
         </div>

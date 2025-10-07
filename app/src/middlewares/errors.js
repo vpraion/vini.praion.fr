@@ -18,7 +18,7 @@
  */
 function serverErrorHandler(err, req, res, next) {
     console.error("❌ Global error:", err.stack || err);
-    res.status(500).render("pages/500.html.njk", { error: err });
+    res.status(500).render("pages/500.html.njk", { error: err, NODE_ENV: process.env.NODE_ENV });
 }
 
 /**
