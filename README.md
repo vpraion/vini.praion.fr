@@ -53,5 +53,6 @@ This project started during my transition into unemployment as a way to keep lea
 ```bash
 git clone https://github.com/vpraion/vini.praion.fr.git
 cd vini.praion.fr
+cp .env.dist .env
 docker-compose up -d
 ```
