@@ -1,258 +1,258 @@
 {
     "blog": {
-        "title": "Blog factice"
+        "title": "Blog"
     },
     "global": {
-        "blog": "Blog factice",
+        "blog": "Blog",
         "change_language": "🇫🇷",
-        "home": "Accueil",
-        "hostname": "exemple.com",
-        "made_with": "Fait avec Bootstrap et Express"
+        "home": "CV",
+        "hostname": "vini.praion.fr",
+        "made_with": "Fait main avec Bootstrap et Express"
     },
     "home": {
         "resume": {
             "education": {
                 "items": [
                     {
-                        "degree": "Diplôme factice 1",
+                        "degree": "Master - Informatique",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2",
-                            "Description factice ligne 3"
+                            "Poursuite de la formation entamée en licence avec un approfondissement des fondements théoriques et pratiques du développement logiciel",
+                            "Étude des réseaux à grande échelle",
+                            "Introduction à l’intelligence artificielle et à la théorie des langages"
                         ],
-                        "location": "Ville factice",
-                        "period": "2000 - 2001",
-                        "school": "École factice 1"
+                        "location": "Perpignan",
+                        "period": "2023-2025",
+                        "school": "Convervatoire National des Arts et Métiers (CNAM)"
                     },
                     {
-                        "degree": "Diplôme factice 2",
+                        "degree": "Licence - Informatique",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2"
+                            "Approfondissement des bases théoriques de l’informatique : algorithmique avancée, structures de données, récursivité, programmation orientée objet et fonctionnelle",
+                            "Consolidation des compétences en architecture logicielle et gestion de projets informatiques"
                         ],
-                        "location": "Ville factice",
-                        "period": "2001 - 2002",
-                        "school": "École factice 2"
+                        "location": "Perpignan",
+                        "period": "2022 - 2023",
+                        "school": "Convervatoire National des Arts et Métiers (CNAM)"
                     },
                     {
-                        "degree": "Diplôme factice 3",
+                        "degree": "RNCP V - Analyste Développeur d'Applications Informatiques",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2",
-                            "Description factice ligne 3"
+                            "Formation axée sur le développement web et logiciel : conception d’applications fullstack, bases en administration système et en réseau",
+                            "Introduction à l’électronique et aux environnements makers (Arduino, impression 3D, IoT)",
+                            "Approche projet et méthodologies agiles."
                         ],
-                        "location": "Ville factice",
-                        "period": "2002 - 2003",
-                        "school": "École factice 3"
+                        "location": "Perpignan",
+                        "period": "2020 - 2022",
+                        "school": "Institut méditerranéen d'études et de recherche en informatique et robotique (IMERIR)"
                     },
                     {
-                        "degree": "Diplôme factice 4",
+                        "degree": "1ère Année Programmation Jeu Vidéo",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2",
-                            "Description factice ligne 3"
+                            "Initiation avancée à la programmation orientée objet en C++ avec le framework SFML",
+                            "Réalisation de plusieurs projets de jeux, dont un Mario Maker-like et un jeu d’arcade rétro pour une compilation collective",
+                            "Introduction aux design patterns et aux principes de conception logicielle appliqués au développement de jeux vidéo"
                         ],
-                        "location": "Ville factice",
-                        "period": "2003 - 2004",
-                        "school": "École factice 4"
+                        "location": "Avignon",
+                        "period": "2019 - 2020",
+                        "school": "Game Academy"
                     },
                     {
-                        "degree": "Diplôme factice 5",
+                        "degree": "Prépa Jeu Vidéo",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2",
-                            "Description factice ligne 3"
+                            "Mise à niveau en mathématiques et initiation à la programmation en LUA via le framework Love2D",
+                            "Création de plusieurs prototypes : Pong, shooter sur rails, shoot’em up, platformer et jeu de rythme inspiré de StepMania",
+                            "Premiers pas dans la logique algorithmique, la gestion de la physique et les mécaniques de gameplay"
                         ],
-                        "location": "Ville factice",
-                        "period": "2004 - 2005",
-                        "school": "École factice 5"
+                        "location": "Nîmes",
+                        "period": "2018 - 2019",
+                        "school": "Creajeux"
                     }
                 ],
                 "items_secondary": [
                     {
-                        "degree": "Diplôme secondaire factice 1",
+                        "degree": "Formation Militaire - Opérations Navales",
                         "description": [
-                            "Description factice ligne 1"
+                            "Formation militaire pour les 16 à 18 ans incluant une remise à niveau scolaire"
                         ],
-                        "location": "Ville factice",
-                        "period": "2005 - 2006",
-                        "school": "École secondaire factice 1"
+                        "location": "Brest",
+                        "period": "2012 - 2013",
+                        "school": "École des Mousses"
                     },
                     {
-                        "degree": "Diplôme secondaire factice 2",
+                        "degree": "BEP Systèmes Électroniques et Numériques",
                         "description": [
-                            "Description factice ligne 1",
-                            "Description factice ligne 2",
-                            "Description factice ligne 3",
-                            "Description factice ligne 4"
+                            "Télécommunications réseaux",
+                            "Audiovisuel",
+                            "Systèmes d'alarmes",
+                            "Électrodomestique"
                         ],
-                        "location": "Ville factice",
-                        "period": "2006 - 2007",
-                        "school": "École secondaire factice 2"
+                        "location": "Nîmes",
+                        "period": "2010 - 2012",
+                        "school": "Lycée Jules Raimu"
                     }
                 ],
-                "title": "Formation factice"
+                "title": "Formation"
             },
             "experiences": {
                 "items": [
                     {
-                        "company": "Entreprise factice 1",
+                        "company": "Afsol",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2",
-                            "Tâche factice 3",
-                            "Tâche factice 4",
-                            "Tâche factice 5"
+                            "Migration de version PHP et Symfony",
+                            "Correction de régression de code",
+                            "Création de tests unitaires phpunit",
+                            "Création de pipeline Jenkins pour la chaîne CI/CD",
+                            "Développement de tests de benchmark avec JMeter"
                         ],
-                        "job_title": "Poste factice 1",
-                        "location": "Ville factice",
-                        "period": "2008 - 2009"
+                        "job_title": "Apprentissage - Développeur Backend",
+                        "location": "Perpignan",
+                        "period": "Septembre 2024 - Septembre 2025"
                     },
                     {
-                        "company": "Entreprise factice 2",
+                        "company": "Numeric Wave",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2",
-                            "Tâche factice 3"
+                            "Ajout de modules sur progiciels",
+                            "Création de tests unitaires phpunit",
+                            "Création de tests unitaires Mocha + Chai pour l'application Wine Advisor du groupe Leclerc"
                         ],
-                        "job_title": "Poste factice 2",
-                        "location": "Ville factice",
-                        "period": "2009 - 2010"
+                        "job_title": "Apprentissage - Développeur Backend",
+                        "location": "Perpignan",
+                        "period": "Septembre 2023 - Septembre 2024"
                     },
                     {
-                        "company": "Entreprise factice 3",
+                        "company": "Chambre de Commerce et d'Industrie",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2",
-                            "Tâche factice 3",
-                            "Tâche factice 4"
+                            "Webmastering : maintenance et mises à jour sur Drupal et administration d’un site WordPress local",
+                            "Expérimentation IA : entraînement d’un modèle LLM pour la catégorisation automatique des demandes faites par mail",
+                            "Gestion de la communication digitale : création de posts et montage vidéo pour les réseaux sociaux",
+                            "Régie technique lors d’événements : installation et supervision du matériel audio-visuel et des scènes en direct"
                         ],
-                        "job_title": "Poste factice 3",
-                        "location": "Ville factice",
-                        "period": "2010 - 2011"
+                        "job_title": "Appprentissage - Développeur Web",
+                        "location": "Perpignan",
+                        "period": "Septembre 2020 - Septembre 2023"
                     }
                 ],
                 "items_secondary": [
                     {
-                        "company": "Entreprise factice 4",
+                        "company": "McDonald's",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2"
+                            "Cuisine",
+                            "Service en salle"
                         ],
-                        "job_title": "Poste factice 4",
-                        "location": "Ville factice",
-                        "period": "2011 - 2012"
+                        "job_title": "Restauration rapide",
+                        "location": "Avignon",
+                        "period": "Mars 2020 - Août 2020"
                     },
                     {
-                        "company": "Entreprise factice 5",
+                        "company": "O'Petit à petit",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2"
+                            "Plonge",
+                            "Service en salle"
                         ],
-                        "job_title": "Poste factice 5",
-                        "location": "Ville factice",
-                        "period": "2012 - 2013"
+                        "job_title": "Restauration",
+                        "location": "Avignon",
+                        "period": "Juin 2019 - Août 2019"
                     },
                     {
-                        "company": "Entreprise factice 6",
+                        "company": "Marine Nationale",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2",
-                            "Tâche factice 3",
-                            "Tâche factice 4"
+                            "Surveillance acoustique sous-marine et interprétation des signaux détectés pour l’identification des bâtiments en mer",
+                            "Maintenance et calibration des équipements sonar de bord, garantissant leur fiabilité opérationnelle",
+                            "Participation aux missions de détection, de sécurité maritime et de renseignement acoustique",
+                            "Formation des nouveaux opérateurs aux procédures et à l’analyse sonar"
                         ],
-                        "job_title": "Poste factice 6",
-                        "location": "Ville factice",
-                        "period": "2013 - 2014"
+                        "job_title": "Opérateur Sonar",
+                        "location": "Brest/Toulon",
+                        "period": "Septembre 2012 - Janvier 2018"
                     },
                     {
-                        "company": "Entreprise factice 7",
+                        "company": "PC Sud Informatique",
                         "description": [
-                            "Tâche factice 1",
-                            "Tâche factice 2",
-                            "Tâche factice 3"
+                            "Montage de PC",
+                            "Réparation de PC fixes, portables et imprimantes",
+                            "Accueil de clients"
                         ],
-                        "job_title": "Poste factice 7",
-                        "location": "Ville factice",
-                        "period": "2014 - 2015"
+                        "job_title": "Stage Technicien informatique",
+                        "location": "Tarascon",
+                        "period": "2010 - 2012"
                     }
                 ],
-                "title": "Expériences factices"
+                "title": "Expérience professionnelle"
             },
             "header": {
                 "contact": {
-                    "email": "factice@exemple.com",
-                    "github": "https://github.com/factice",
-                    "linkedin": "https://linkedin.com/in/factice",
-                    "phone": "+00 0 00 00 00 00"
+                    "email": "v.praion@proton.me",
+                    "github": "https://github.com/vpraion",
+                    "linkedin": "https://www.linkedin.com/in/vini-praion/",
+                    "phone": "+33 6 23 86 74 53"
                 },
-                "name": "Jean Dupont",
+                "name": "Vini Praion",
                 "photo": "/public/img/profile.webp",
-                "title": "Poste factice"
+                "title": "Développeur Backend en reconversion DevOps"
             },
             "interests": {
                 "items": [
-                    "Intérêt factice 1",
-                    "Intérêt factice 2",
-                    "Intérêt factice 3",
-                    "Intérêt factice 4",
-                    "Intérêt factice 5"
+                    "Culture et histoire du jeu vidéo",
+                    "Restauration et modding léger de consoles rétro",
+                    "Fine tuning d'ordinateurs",
+                    "Veille technologique et performances PC",
+                    "Écosystème open-source et communautés tech"
                 ],
-                "title": "Centres d'intérêt factices"
+                "title": "Centres d'intérêt"
             },
             "languages": {
                 "items": [
                     {
-                        "language": "Langue factice 1",
-                        "level": "Niveau factice 1"
+                        "language": "Français",
+                        "level": "Langue maternelle"
                     },
                     {
-                        "language": "Langue factice 2",
-                        "level": "Niveau factice 2"
+                        "language": "Anglais",
+                        "level": "B2 (885/990 TOEIC)"
                     }
                 ],
-                "title": "Langues factices"
+                "title": "Langues"
             },
             "skills": {
                 "soft": [
-                    "Compétence douce factice 1",
-                    "Compétence douce factice 2",
-                    "Compétence douce factice 3",
-                    "Compétence douce factice 4",
-                    "Compétence douce factice 5"
+                    "Travail en équipe (Tuleap, gestion de tickets, collaboration sur branches Git)",
+                    "Autonomie et curiosité technique",
+                    "Adaptabilité multi-environnements (Linux, macOS, Windows)",
+                    "Rigueur dans les processus de CI/CD et d’automatisation",
+                    "Communication professionnelle en anglais (TOEIC 885/990)"
                 ],
                 "technical": [
-                    "Compétence technique factice 1",
-                    "Compétence technique factice 2",
-                    "Compétence technique factice 3",
-                    "Compétence technique factice 4",
-                    "Compétence technique factice 5"
+                    "Langages : C++, PHP, Java, JavaScript, Python, Lua, Shellscript, SQL",
+                    "Frameworks : Symfony/Twig, Flask/Jinja, Love2D, SFML",
+                    "Outils DevOps : Docker, Docker Compose, Jenkins, PHPUnit, tâches cron",
+                    "Systèmes : Linux, macOS, Windows",
+                    "CI/CD : configuration de pipelines, hooks Git, tests unitaires automatisés"
                 ],
-                "title": "Compétences factices"
+                "title": "Compétences"
             },
             "summary": {
-                "text": "Ceci est un résumé factice utilisé uniquement à des fins de test et de remplissage. Il ne contient aucune information réelle mais conserve la structure du fichier.",
-                "title": "À propos factice"
+                "text": "Passionné de hardware PC et de jeux vidéo depuis toujours, j’ai naturellement développé un intérêt pour le côté software. Après plusieurs années dans la Marine nationale, où je ne pouvais pas exercer ce cœur de métier, j’ai choisi de me reconvertir pour plonger pleinement dans l’informatique. Mon parcours m’a d’abord conduit vers le développement backend, mais au fil des projets j’ai adopté de plus en plus d’outils et de pratiques DevOps, convaincu que l’automatisation et l’infrastructure sont des leviers essentiels pour des logiciels fiables et durables. Aujourd’hui, je souhaite mettre cette vision au service de mes futurs projets et continuer à apprendre tout en partageant mes découvertes.",
+                "title": "À propos de moi"
             }
         },
-        "full_resume": "✨ Voir le CV factice complet",
-        "short_resume": "🧭 Retour à l'essentiel factice",
-        "contact": "📬 Contact factice",
-        "title": "CV factice"
+        "full_resume": "✨ Voir le CV enrichi",
+        "short_resume": "🧭 Revenir à l'essentiel",
+        "contact": "📬 Me contacter",
+        "title": "CV"
     },
     "create-article": {
-        "title": "Création d'article factice",
-        "copy": "Copier factice"
+        "title": "Créer un article",
+        "copy": "Copier"
     },
     "404": {
-        "title": "Erreur 404 factice",
-        "content": "Ceci est un message 404 factice pour du contenu manquant."
+        "title": "Erreur 404",
+        "content": "L'URL demandée n'a pas été trouvée sur le serveur. Le lien est corrompu ou la page a été retirée."
     },
     "500": {
-        "title": "Erreur 500 factice",
-        "content": "Ceci est un message 500 factice pour les erreurs serveur."
+        "title": "Erreur 500",
+        "content": "Le serveur a rencontré un problème bloquant lors de l'accès à cette ressource."
     },
     "contact": {
-        "title": "Contact factice"
+        "title": "Contact"
     }
 }

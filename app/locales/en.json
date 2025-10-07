@@ -1,258 +1,258 @@
 {
     "blog": {
-        "title": "Dummy Blog"
+        "title": "Blog"
     },
     "global": {
-        "blog": "Dummy Blog",
-        "change_language": "🇺🇸",
-        "home": "Home",
-        "hostname": "example.com",
-        "made_with": "Made with Bootstrap and Express"
+        "blog": "Blog",
+        "change_language": "🇬🇧",
+        "home": "Resume",
+        "hostname": "vini.praion.fr",
+        "made_with": "Handcrafted with Bootstrap and Express"
     },
     "home": {
         "resume": {
             "education": {
                 "items": [
                     {
-                        "degree": "Dummy Degree 1",
+                        "degree": "Master's Degree - Computer Science",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2",
-                            "Dummy description line 3"
+                            "Continuation of the Bachelor's curriculum with a deeper focus on theoretical and practical foundations of software development",
+                            "Study of large-scale network systems",
+                            "Introduction to artificial intelligence and language theory"
                         ],
-                        "location": "Dummy City",
-                        "period": "2000 - 2001",
-                        "school": "Dummy School 1"
+                        "location": "Perpignan",
+                        "period": "2023-2025",
+                        "school": "Conservatoire National des Arts et Métiers (CNAM)"
                     },
                     {
-                        "degree": "Dummy Degree 2",
+                        "degree": "Bachelor's Degree - Computer Science",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2"
+                            "In-depth study of computer science fundamentals: advanced algorithms, data structures, recursion, object-oriented and functional programming",
+                            "Strengthening of software architecture and project management skills"
                         ],
-                        "location": "Dummy City",
-                        "period": "2001 - 2002",
-                        "school": "Dummy School 2"
+                        "location": "Perpignan",
+                        "period": "2022 - 2023",
+                        "school": "Conservatoire National des Arts et Métiers (CNAM)"
                     },
                     {
-                        "degree": "Dummy Degree 3",
+                        "degree": "RNCP Level V - Application Developer Analyst",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2",
-                            "Dummy description line 3"
+                            "Training focused on web and software development: fullstack application design, basics of system and network administration",
+                            "Introduction to electronics and maker environments (Arduino, 3D printing, IoT)",
+                            "Project-based learning and agile methodologies"
                         ],
-                        "location": "Dummy City",
-                        "period": "2002 - 2003",
-                        "school": "Dummy School 3"
+                        "location": "Perpignan",
+                        "period": "2020 - 2022",
+                        "school": "Institut Méditerranéen d'Études et de Recherche en Informatique et Robotique (IMERIR)"
                     },
                     {
-                        "degree": "Dummy Degree 4",
+                        "degree": "1st Year - Video Game Programming",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2",
-                            "Dummy description line 3"
+                            "Advanced introduction to object-oriented programming in C++ using the SFML framework",
+                            "Development of several game projects, including a Mario Maker-like and a retro arcade game for a group compilation",
+                            "Introduction to design patterns and software design principles applied to video game development"
                         ],
-                        "location": "Dummy City",
-                        "period": "2003 - 2004",
-                        "school": "Dummy School 4"
+                        "location": "Avignon",
+                        "period": "2019 - 2020",
+                        "school": "Game Academy"
                     },
                     {
-                        "degree": "Dummy Degree 5",
+                        "degree": "Preparatory Course - Video Game Development",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2",
-                            "Dummy description line 3"
+                            "Math refresher and introduction to programming in LUA with the Love2D framework",
+                            "Creation of multiple prototypes: Pong, on-rails shooter, shoot’em up, platformer, and rhythm game inspired by StepMania",
+                            "First steps in algorithmic logic, physics handling, and gameplay mechanics"
                         ],
-                        "location": "Dummy City",
-                        "period": "2004 - 2005",
-                        "school": "Dummy School 5"
+                        "location": "Nîmes",
+                        "period": "2018 - 2019",
+                        "school": "Creajeux"
                     }
                 ],
                 "items_secondary": [
                     {
-                        "degree": "Dummy Secondary Degree 1",
+                        "degree": "Military Training - Naval Operations",
                         "description": [
-                            "Dummy description line 1"
+                            "Military education program for 16–18-year-olds including academic refresher courses"
                         ],
-                        "location": "Dummy City",
-                        "period": "2005 - 2006",
-                        "school": "Dummy Secondary School 1"
+                        "location": "Brest",
+                        "period": "2012 - 2013",
+                        "school": "École des Mousses"
                     },
                     {
-                        "degree": "Dummy Secondary Degree 2",
+                        "degree": "BEP - Electronic and Digital Systems",
                         "description": [
-                            "Dummy description line 1",
-                            "Dummy description line 2",
-                            "Dummy description line 3",
-                            "Dummy description line 4"
+                            "Telecommunications and networks",
+                            "Audiovisual systems",
+                            "Alarm and security systems",
+                            "Household electronics"
                         ],
-                        "location": "Dummy City",
-                        "period": "2006 - 2007",
-                        "school": "Dummy Secondary School 2"
+                        "location": "Nîmes",
+                        "period": "2010 - 2012",
+                        "school": "Lycée Jules Raimu"
                     }
                 ],
-                "title": "Dummy Education"
+                "title": "Education"
             },
             "experiences": {
                 "items": [
                     {
-                        "company": "Dummy Company 1",
+                        "company": "Afsol",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2",
-                            "Dummy task 3",
-                            "Dummy task 4",
-                            "Dummy task 5"
+                            "PHP and Symfony version migration",
+                            "Bug and regression fixing",
+                            "Creation of PHPUnit tests",
+                            "Setup of Jenkins pipelines for CI/CD workflows",
+                            "Development of benchmarking tests with JMeter"
                         ],
-                        "job_title": "Dummy Job Title 1",
-                        "location": "Dummy City",
-                        "period": "2008 - 2009"
+                        "job_title": "Apprenticeship - Backend Developer",
+                        "location": "Perpignan",
+                        "period": "September 2024 - September 2025"
                     },
                     {
-                        "company": "Dummy Company 2",
+                        "company": "Numeric Wave",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2",
-                            "Dummy task 3"
+                            "Addition of modules to ERP software",
+                            "Creation of PHPUnit tests",
+                            "Creation of Mocha + Chai unit tests for the Leclerc Group’s Wine Advisor app"
                         ],
-                        "job_title": "Dummy Job Title 2",
-                        "location": "Dummy City",
-                        "period": "2009 - 2010"
+                        "job_title": "Apprenticeship - Backend Developer",
+                        "location": "Perpignan",
+                        "period": "September 2023 - September 2024"
                     },
                     {
-                        "company": "Dummy Company 3",
+                        "company": "Chamber of Commerce and Industry",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2",
-                            "Dummy task 3",
-                            "Dummy task 4"
+                            "Webmastering: maintenance and updates on Drupal and administration of a local WordPress website",
+                            "AI experimentation: training of a LLM model for automatic categorization of email requests",
+                            "Digital communication management: creation of social media posts and video editing",
+                            "Technical management during events: installation and supervision of audiovisual equipment and live stages"
                         ],
-                        "job_title": "Dummy Job Title 3",
-                        "location": "Dummy City",
-                        "period": "2010 - 2011"
+                        "job_title": "Apprenticeship - Web Developer",
+                        "location": "Perpignan",
+                        "period": "September 2020 - September 2023"
                     }
                 ],
                 "items_secondary": [
                     {
-                        "company": "Dummy Company 4",
+                        "company": "McDonald's",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2"
+                            "Kitchen work",
+                            "Table service"
                         ],
-                        "job_title": "Dummy Job Title 4",
-                        "location": "Dummy City",
-                        "period": "2011 - 2012"
+                        "job_title": "Fast Food Crew Member",
+                        "location": "Avignon",
+                        "period": "March 2020 - August 2020"
                     },
                     {
-                        "company": "Dummy Company 5",
+                        "company": "O'Petit à petit",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2"
+                            "Dishwashing",
+                            "Table service"
                         ],
-                        "job_title": "Dummy Job Title 5",
-                        "location": "Dummy City",
-                        "period": "2012 - 2013"
+                        "job_title": "Restaurant Worker",
+                        "location": "Avignon",
+                        "period": "June 2019 - August 2019"
                     },
                     {
-                        "company": "Dummy Company 6",
+                        "company": "French Navy",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2",
-                            "Dummy task 3",
-                            "Dummy task 4"
+                            "Underwater acoustic surveillance and signal interpretation for ship identification at sea",
+                            "Maintenance and calibration of onboard sonar equipment ensuring operational reliability",
+                            "Participation in detection, maritime security, and acoustic intelligence missions",
+                            "Training of new operators in sonar procedures and analysis"
                         ],
-                        "job_title": "Dummy Job Title 6",
-                        "location": "Dummy City",
-                        "period": "2013 - 2014"
+                        "job_title": "Sonar Operator",
+                        "location": "Brest / Toulon",
+                        "period": "September 2012 - January 2018"
                     },
                     {
-                        "company": "Dummy Company 7",
+                        "company": "PC Sud Informatique",
                         "description": [
-                            "Dummy task 1",
-                            "Dummy task 2",
-                            "Dummy task 3"
+                            "Computer assembly",
+                            "Repair of desktops, laptops, and printers",
+                            "Customer reception and service"
                         ],
-                        "job_title": "Dummy Job Title 7",
-                        "location": "Dummy City",
-                        "period": "2014 - 2015"
+                        "job_title": "IT Technician Intern",
+                        "location": "Tarascon",
+                        "period": "2010 - 2012"
                     }
                 ],
-                "title": "Dummy Experience"
+                "title": "Professional Experience"
             },
             "header": {
                 "contact": {
-                    "email": "dummy@example.com",
-                    "github": "https://github.com/dummy",
-                    "linkedin": "https://linkedin.com/in/dummy",
-                    "phone": "+00 0 00 00 00 00"
+                    "email": "v.praion@proton.me",
+                    "github": "https://github.com/vpraion",
+                    "linkedin": "https://www.linkedin.com/in/vini-praion/",
+                    "phone": "+33 6 23 86 74 53"
                 },
-                "name": "John Doe",
+                "name": "Vini Praion",
                 "photo": "/public/img/profile.webp",
-                "title": "Dummy Position"
+                "title": "Backend Developer transitioning to DevOps"
             },
             "interests": {
                 "items": [
-                    "Dummy interest 1",
-                    "Dummy interest 2",
-                    "Dummy interest 3",
-                    "Dummy interest 4",
-                    "Dummy interest 5"
+                    "Video game culture and history",
+                    "Restoration and light modding of retro consoles",
+                    "PC fine-tuning and hardware optimization",
+                    "Tech watch and PC performance benchmarking",
+                    "Open-source ecosystem and tech communities"
                 ],
-                "title": "Dummy Interests"
+                "title": "Interests"
             },
             "languages": {
                 "items": [
                     {
-                        "language": "Dummy Language 1",
-                        "level": "Dummy Level 1"
+                        "language": "French",
+                        "level": "Native language"
                     },
                     {
-                        "language": "Dummy Language 2",
-                        "level": "Dummy Level 2"
+                        "language": "English",
+                        "level": "B2 (885/990 TOEIC)"
                     }
                 ],
-                "title": "Dummy Languages"
+                "title": "Languages"
             },
             "skills": {
                 "soft": [
-                    "Dummy soft skill 1",
-                    "Dummy soft skill 2",
-                    "Dummy soft skill 3",
-                    "Dummy soft skill 4",
-                    "Dummy soft skill 5"
+                    "Teamwork (Tuleap, ticket management, Git branch collaboration)",
+                    "Technical curiosity and autonomy",
+                    "Adaptability across multiple environments (Linux, macOS, Windows)",
+                    "Rigor in CI/CD and automation processes",
+                    "Professional English communication (TOEIC 885/990)"
                 ],
                 "technical": [
-                    "Dummy tech skill 1",
-                    "Dummy tech skill 2",
-                    "Dummy tech skill 3",
-                    "Dummy tech skill 4",
-                    "Dummy tech skill 5"
+                    "Languages: C++, PHP, Java, JavaScript, Python, Lua, Shellscript, SQL",
+                    "Frameworks: Symfony/Twig, Flask/Jinja, Love2D, SFML",
+                    "DevOps tools: Docker, Docker Compose, Jenkins, PHPUnit, cron tasks",
+                    "Operating systems: Linux, macOS, Windows",
+                    "CI/CD: pipeline setup, Git hooks, automated unit testing"
                 ],
-                "title": "Dummy Skills"
+                "title": "Skills"
             },
             "summary": {
-                "text": "This is a dummy summary used for testing and placeholder purposes only. It contains no meaningful information but keeps the structure intact.",
-                "title": "Dummy About"
+                "text": "Passionate about PC hardware and video games since forever, I naturally developed an interest in the software side of things. After several years in the French Navy, where I couldn’t practice this core craft, I decided to retrain to fully dive into computer science. My path first led me to backend development, but over time I adopted more and more DevOps tools and practices, convinced that automation and infrastructure are key to building reliable and maintainable software. Today, I want to put this vision at the service of future projects and keep learning while sharing my discoveries.",
+                "title": "About Me"
             }
         },
-        "full_resume": "✨ View dummy resume",
-        "short_resume": "🧭 Dummy essentials",
-        "contact": "📬 Dummy contact",
-        "title": "Dummy Resume"
+        "full_resume": "✨ View full resume",
+        "short_resume": "🧭 Back to essentials",
+        "contact": "📬 Contact me",
+        "title": "Resume"
     },
     "create-article": {
-        "title": "Dummy Article Creation",
-        "copy": "Copy Dummy"
+        "title": "Create an Article",
+        "copy": "Copy"
     },
     "404": {
-        "title": "Dummy Error 404",
-        "content": "This is a dummy 404 message for missing content."
+        "title": "Error 404",
+        "content": "The requested URL was not found on the server. The link may be broken or the page has been removed."
     },
     "500": {
-        "title": "Dummy Error 500",
-        "content": "This is a dummy 500 message for server errors."
+        "title": "Error 500",
+        "content": "The server encountered a critical issue while accessing this resource."
     },
     "contact": {
-        "title": "Dummy Contact"
+        "title": "Contact"
     }
 }
