@@ -1,5 +1,8 @@
 app/node_modules
 *.env
+*.env.dev
+*.env.prod
+
 *.map
 .vscode/settings.json
 *.bak
