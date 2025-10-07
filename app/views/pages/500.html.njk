@@ -1,0 +1,16 @@
+{% set title = t("500.title") %}
+{% extends "../layouts/main.html.njk" %}
+{% block content %}
+    <div class="container d-flex flex-column justify-content-start align-items-center text-center">
+        <div class="mt-5">
+            <h1 class="mb-5" aria-label="sad-emoji">🤯</h1>
+            <h2 class="mb-5">{{ t("500.title")}}</h2>
+            <p>{{ t("500.content") }}</p>
+            {# TODO! Define the PROD and DEV mode #}
+            {% if DEV %}
+                <pre>{{ error }}</pre>
+            {% endif %}
+        </div>
+    </div>
+
+{% endblock %}

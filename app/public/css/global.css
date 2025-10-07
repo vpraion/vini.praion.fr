@@ -1,0 +1,111 @@
+.social-icon {
+    visibility: visible;
+}
+
+.social-text {
+    display: none;
+}
+
+/* Hide the navbar on printer mode */
+
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .social-text {
+        display: block;
+        font-size: 0.6rem;
+    }
+}
+
+.badge {
+    font-size: 0.85rem;
+    border-radius: 1.5rem;
+}
+
+
+[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-fg: #000000;
+}
+
+[data-theme="dark"] {
+    --color-bg: #000000e8;
+    --color-fg: #ffffff;
+}
+
+[data-theme="light"] #theme-toggle-btn::before {
+    content: "☀️";
+}
+
+[data-theme="dark"] #theme-toggle-btn::before {
+    content: "🌙";
+}
+
+[data-theme="light"] .svg-icon-white {
+    filter: invert(1);
+    transition: filter 0.3s;
+}
+
+[data-theme="dark"] .negativable {
+    filter: invert(1);
+    transition: filter 0.3s;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#markdownInput {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    transition: background-color 0.3s, color 0.3s;
+    resize: none;
+}
+
+#previewZone {
+    overflow-x: auto;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.svg {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.resume-photo {
+    max-width: 150px;
+}
+
+/* Visual changes on the menu burger button */
+.navbar-toggler {
+    padding: .4rem .6rem;
+    border-radius: 8px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 2px var(--accent, #0d6efd);
+}
+
+/* 21:9 constrain */
+.max-21-9 {
+    width: 100%;
+    max-width: clamp(210px, 90vw, 1920px);
+    margin-inline: auto;
+    padding-inline: 1rem;
+}

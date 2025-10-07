@@ -1,0 +1,258 @@
+{
+    "blog": {
+        "title": "Blog factice"
+    },
+    "global": {
+        "blog": "Blog factice",
+        "change_language": "🇫🇷",
+        "home": "Accueil",
+        "hostname": "exemple.com",
+        "made_with": "Fait avec Bootstrap et Express"
+    },
+    "home": {
+        "resume": {
+            "education": {
+                "items": [
+                    {
+                        "degree": "Diplôme factice 1",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2",
+                            "Description factice ligne 3"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2000 - 2001",
+                        "school": "École factice 1"
+                    },
+                    {
+                        "degree": "Diplôme factice 2",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2001 - 2002",
+                        "school": "École factice 2"
+                    },
+                    {
+                        "degree": "Diplôme factice 3",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2",
+                            "Description factice ligne 3"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2002 - 2003",
+                        "school": "École factice 3"
+                    },
+                    {
+                        "degree": "Diplôme factice 4",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2",
+                            "Description factice ligne 3"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2003 - 2004",
+                        "school": "École factice 4"
+                    },
+                    {
+                        "degree": "Diplôme factice 5",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2",
+                            "Description factice ligne 3"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2004 - 2005",
+                        "school": "École factice 5"
+                    }
+                ],
+                "items_secondary": [
+                    {
+                        "degree": "Diplôme secondaire factice 1",
+                        "description": [
+                            "Description factice ligne 1"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2005 - 2006",
+                        "school": "École secondaire factice 1"
+                    },
+                    {
+                        "degree": "Diplôme secondaire factice 2",
+                        "description": [
+                            "Description factice ligne 1",
+                            "Description factice ligne 2",
+                            "Description factice ligne 3",
+                            "Description factice ligne 4"
+                        ],
+                        "location": "Ville factice",
+                        "period": "2006 - 2007",
+                        "school": "École secondaire factice 2"
+                    }
+                ],
+                "title": "Formation factice"
+            },
+            "experiences": {
+                "items": [
+                    {
+                        "company": "Entreprise factice 1",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2",
+                            "Tâche factice 3",
+                            "Tâche factice 4",
+                            "Tâche factice 5"
+                        ],
+                        "job_title": "Poste factice 1",
+                        "location": "Ville factice",
+                        "period": "2008 - 2009"
+                    },
+                    {
+                        "company": "Entreprise factice 2",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2",
+                            "Tâche factice 3"
+                        ],
+                        "job_title": "Poste factice 2",
+                        "location": "Ville factice",
+                        "period": "2009 - 2010"
+                    },
+                    {
+                        "company": "Entreprise factice 3",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2",
+                            "Tâche factice 3",
+                            "Tâche factice 4"
+                        ],
+                        "job_title": "Poste factice 3",
+                        "location": "Ville factice",
+                        "period": "2010 - 2011"
+                    }
+                ],
+                "items_secondary": [
+                    {
+                        "company": "Entreprise factice 4",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2"
+                        ],
+                        "job_title": "Poste factice 4",
+                        "location": "Ville factice",
+                        "period": "2011 - 2012"
+                    },
+                    {
+                        "company": "Entreprise factice 5",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2"
+                        ],
+                        "job_title": "Poste factice 5",
+                        "location": "Ville factice",
+                        "period": "2012 - 2013"
+                    },
+                    {
+                        "company": "Entreprise factice 6",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2",
+                            "Tâche factice 3",
+                            "Tâche factice 4"
+                        ],
+                        "job_title": "Poste factice 6",
+                        "location": "Ville factice",
+                        "period": "2013 - 2014"
+                    },
+                    {
+                        "company": "Entreprise factice 7",
+                        "description": [
+                            "Tâche factice 1",
+                            "Tâche factice 2",
+                            "Tâche factice 3"
+                        ],
+                        "job_title": "Poste factice 7",
+                        "location": "Ville factice",
+                        "period": "2014 - 2015"
+                    }
+                ],
+                "title": "Expériences factices"
+            },
+            "header": {
+                "contact": {
+                    "email": "factice@exemple.com",
+                    "github": "https://github.com/factice",
+                    "linkedin": "https://linkedin.com/in/factice",
+                    "phone": "+00 0 00 00 00 00"
+                },
+                "name": "Jean Dupont",
+                "photo": "/public/img/profile.webp",
+                "title": "Poste factice"
+            },
+            "interests": {
+                "items": [
+                    "Intérêt factice 1",
+                    "Intérêt factice 2",
+                    "Intérêt factice 3",
+                    "Intérêt factice 4",
+                    "Intérêt factice 5"
+                ],
+                "title": "Centres d'intérêt factices"
+            },
+            "languages": {
+                "items": [
+                    {
+                        "language": "Langue factice 1",
+                        "level": "Niveau factice 1"
+                    },
+                    {
+                        "language": "Langue factice 2",
+                        "level": "Niveau factice 2"
+                    }
+                ],
+                "title": "Langues factices"
+            },
+            "skills": {
+                "soft": [
+                    "Compétence douce factice 1",
+                    "Compétence douce factice 2",
+                    "Compétence douce factice 3",
+                    "Compétence douce factice 4",
+                    "Compétence douce factice 5"
+                ],
+                "technical": [
+                    "Compétence technique factice 1",
+                    "Compétence technique factice 2",
+                    "Compétence technique factice 3",
+                    "Compétence technique factice 4",
+                    "Compétence technique factice 5"
+                ],
+                "title": "Compétences factices"
+            },
+            "summary": {
+                "text": "Ceci est un résumé factice utilisé uniquement à des fins de test et de remplissage. Il ne contient aucune information réelle mais conserve la structure du fichier.",
+                "title": "À propos factice"
+            }
+        },
+        "full_resume": "✨ Voir le CV factice complet",
+        "short_resume": "🧭 Retour à l'essentiel factice",
+        "contact": "📬 Contact factice",
+        "title": "CV factice"
+    },
+    "create-article": {
+        "title": "Création d'article factice",
+        "copy": "Copier factice"
+    },
+    "404": {
+        "title": "Erreur 404 factice",
+        "content": "Ceci est un message 404 factice pour du contenu manquant."
+    },
+    "500": {
+        "title": "Erreur 500 factice",
+        "content": "Ceci est un message 500 factice pour les erreurs serveur."
+    },
+    "contact": {
+        "title": "Contact factice"
+    }
+}

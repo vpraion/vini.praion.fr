@@ -1,0 +1,12 @@
+services:
+  web:
+    image: "node:latest"
+    container_name: "${CONTAINER_NAME_WEB}"
+    volumes:
+      - "./app:/app"
+    ports:
+      - "${HOST_PORT_WEB}:${SERVICE_PORT_WEB}"
+    environment:
+      - SERVICE_PORT_WEB=${SERVICE_PORT_WEB}
+    working_dir: "/app"
+    command: ["npm", "run", "dev"]

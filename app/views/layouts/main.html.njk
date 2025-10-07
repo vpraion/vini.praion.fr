@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <script src="/public/js/init.js"></script>
+        <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/public/css/global.css">
+        <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    </head>
+
+    {% include "./header.html.njk" %}
+    <body class="d-flex flex-column min-vh-100">
+        <main class="flex-fill max-21-9 rounded p-lg-5 p-md-3">
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+    {% include "./footer.html.njk" %}
+    <script src="/public/js/toggle-theme.js"></script>
+    <script src="/public/js/change-lang.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+</html>

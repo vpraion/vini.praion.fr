@@ -1,0 +1,258 @@
+{
+    "blog": {
+        "title": "Dummy Blog"
+    },
+    "global": {
+        "blog": "Dummy Blog",
+        "change_language": "🇺🇸",
+        "home": "Home",
+        "hostname": "example.com",
+        "made_with": "Made with Bootstrap and Express"
+    },
+    "home": {
+        "resume": {
+            "education": {
+                "items": [
+                    {
+                        "degree": "Dummy Degree 1",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2",
+                            "Dummy description line 3"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2000 - 2001",
+                        "school": "Dummy School 1"
+                    },
+                    {
+                        "degree": "Dummy Degree 2",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2001 - 2002",
+                        "school": "Dummy School 2"
+                    },
+                    {
+                        "degree": "Dummy Degree 3",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2",
+                            "Dummy description line 3"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2002 - 2003",
+                        "school": "Dummy School 3"
+                    },
+                    {
+                        "degree": "Dummy Degree 4",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2",
+                            "Dummy description line 3"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2003 - 2004",
+                        "school": "Dummy School 4"
+                    },
+                    {
+                        "degree": "Dummy Degree 5",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2",
+                            "Dummy description line 3"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2004 - 2005",
+                        "school": "Dummy School 5"
+                    }
+                ],
+                "items_secondary": [
+                    {
+                        "degree": "Dummy Secondary Degree 1",
+                        "description": [
+                            "Dummy description line 1"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2005 - 2006",
+                        "school": "Dummy Secondary School 1"
+                    },
+                    {
+                        "degree": "Dummy Secondary Degree 2",
+                        "description": [
+                            "Dummy description line 1",
+                            "Dummy description line 2",
+                            "Dummy description line 3",
+                            "Dummy description line 4"
+                        ],
+                        "location": "Dummy City",
+                        "period": "2006 - 2007",
+                        "school": "Dummy Secondary School 2"
+                    }
+                ],
+                "title": "Dummy Education"
+            },
+            "experiences": {
+                "items": [
+                    {
+                        "company": "Dummy Company 1",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2",
+                            "Dummy task 3",
+                            "Dummy task 4",
+                            "Dummy task 5"
+                        ],
+                        "job_title": "Dummy Job Title 1",
+                        "location": "Dummy City",
+                        "period": "2008 - 2009"
+                    },
+                    {
+                        "company": "Dummy Company 2",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2",
+                            "Dummy task 3"
+                        ],
+                        "job_title": "Dummy Job Title 2",
+                        "location": "Dummy City",
+                        "period": "2009 - 2010"
+                    },
+                    {
+                        "company": "Dummy Company 3",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2",
+                            "Dummy task 3",
+                            "Dummy task 4"
+                        ],
+                        "job_title": "Dummy Job Title 3",
+                        "location": "Dummy City",
+                        "period": "2010 - 2011"
+                    }
+                ],
+                "items_secondary": [
+                    {
+                        "company": "Dummy Company 4",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2"
+                        ],
+                        "job_title": "Dummy Job Title 4",
+                        "location": "Dummy City",
+                        "period": "2011 - 2012"
+                    },
+                    {
+                        "company": "Dummy Company 5",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2"
+                        ],
+                        "job_title": "Dummy Job Title 5",
+                        "location": "Dummy City",
+                        "period": "2012 - 2013"
+                    },
+                    {
+                        "company": "Dummy Company 6",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2",
+                            "Dummy task 3",
+                            "Dummy task 4"
+                        ],
+                        "job_title": "Dummy Job Title 6",
+                        "location": "Dummy City",
+                        "period": "2013 - 2014"
+                    },
+                    {
+                        "company": "Dummy Company 7",
+                        "description": [
+                            "Dummy task 1",
+                            "Dummy task 2",
+                            "Dummy task 3"
+                        ],
+                        "job_title": "Dummy Job Title 7",
+                        "location": "Dummy City",
+                        "period": "2014 - 2015"
+                    }
+                ],
+                "title": "Dummy Experience"
+            },
+            "header": {
+                "contact": {
+                    "email": "dummy@example.com",
+                    "github": "https://github.com/dummy",
+                    "linkedin": "https://linkedin.com/in/dummy",
+                    "phone": "+00 0 00 00 00 00"
+                },
+                "name": "John Doe",
+                "photo": "/public/img/profile.webp",
+                "title": "Dummy Position"
+            },
+            "interests": {
+                "items": [
+                    "Dummy interest 1",
+                    "Dummy interest 2",
+                    "Dummy interest 3",
+                    "Dummy interest 4",
+                    "Dummy interest 5"
+                ],
+                "title": "Dummy Interests"
+            },
+            "languages": {
+                "items": [
+                    {
+                        "language": "Dummy Language 1",
+                        "level": "Dummy Level 1"
+                    },
+                    {
+                        "language": "Dummy Language 2",
+                        "level": "Dummy Level 2"
+                    }
+                ],
+                "title": "Dummy Languages"
+            },
+            "skills": {
+                "soft": [
+                    "Dummy soft skill 1",
+                    "Dummy soft skill 2",
+                    "Dummy soft skill 3",
+                    "Dummy soft skill 4",
+                    "Dummy soft skill 5"
+                ],
+                "technical": [
+                    "Dummy tech skill 1",
+                    "Dummy tech skill 2",
+                    "Dummy tech skill 3",
+                    "Dummy tech skill 4",
+                    "Dummy tech skill 5"
+                ],
+                "title": "Dummy Skills"
+            },
+            "summary": {
+                "text": "This is a dummy summary used for testing and placeholder purposes only. It contains no meaningful information but keeps the structure intact.",
+                "title": "Dummy About"
+            }
+        },
+        "full_resume": "✨ View dummy resume",
+        "short_resume": "🧭 Dummy essentials",
+        "contact": "📬 Dummy contact",
+        "title": "Dummy Resume"
+    },
+    "create-article": {
+        "title": "Dummy Article Creation",
+        "copy": "Copy Dummy"
+    },
+    "404": {
+        "title": "Dummy Error 404",
+        "content": "This is a dummy 404 message for missing content."
+    },
+    "500": {
+        "title": "Dummy Error 500",
+        "content": "This is a dummy 500 message for server errors."
+    },
+    "contact": {
+        "title": "Dummy Contact"
+    }
+}

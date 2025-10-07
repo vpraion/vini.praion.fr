@@ -1,0 +1,140 @@
+{% set title = t("home.title") %}
+{% extends "../layouts/main.html.njk" %}
+{% block content %}
+    {% set resume = t("home.resume") %}
+    <div class="container mt-3">
+        <div class="row">
+
+            <div class="col-sm text-center mb-3">
+                <img src="{{ resume.header.photo }}" alt="Photo" class="img-fluid
+                rounded shadow resume-photo">
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 mb-3">
+                    <div class="row">
+                        <div class="col-sm-12 align-content-center">
+                            <h3>{{ resume.header.name }}</h3>
+                        </div>
+                        <div class="col-sm-12 align-content-center">
+                            <h4 class="fst-italic">{{ resume.header.title }}</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 g-4 justify-content-around mb-3 d-flex">
+
+                    <div class="col-sm-4 overflow-auto text-center align-content-center">
+                        <a class="text-decoration-none" href="mailto:{ resume.header.contact.email}}" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/svg/mail.svg" class="svg
+                                negativable social-icon" alt="Mail">
+                            <span class="social-text">
+                                {{ resume.header.contact.email }}
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 overflow-auto text-center align-content-center">
+                        <a class="text-decoration-none" href="{{ resume.header.contact.linkedin }}" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/svg/linkedin.svg" class="svg negativable social-icon" alt="LinkedIn">
+                            <span class="social-text">
+                                {{ resume.header.contact.linkedin}}
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 overflow-auto text-center">
+                        <a class="text-decoration-none" href="{{ resume.header.contact.github }}" target="_blank" rel="noopener noreferrer align-content-center">
+                            <img src="/public/svg/github.svg" class="svg negativable social-icon" alt="GitHub">
+                            <span class="social-text">
+                                {{ resume.header.contact.github }}
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 mb-3 mt-3">
+                    <h2>{{ resume.summary.title }}</h2>
+                    <p>{{ resume.summary.text }}</p>
+                </div>
+
+                <div class="text-center mb-4 no-print">
+                    {% if cv_full %}
+                        <a href="/">
+                            <button id="toggleCV" class="btn btn-secondary">
+                                {{ t("home.short_resume") }}
+                            </button>
+                        </a>
+                    {% else %}
+                        <a href="/cv-full">
+                            <button id="toggleCV" class="btn btn-secondary">
+                                {{ t("home.full_resume") }}
+                            </button>
+                        </a>
+                    {% endif %}
+
+                </div>
+
+                <div class="col-sm-12 mb-3">
+                    <h2 class="mb-4">{{ resume.experiences.title }}</h2>
+                    <div class="row g-4">
+                        {% for experience in resume.experiences.items %}
+                            {% include "../partials/resume/experience.html.njk" %}
+                        {% endfor %}
+                        {% if cv_full %}
+                            {% for experience in resume.experiences.items_secondary %}
+                                {% include "../partials/resume/experience.html.njk" %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mb-3">
+                    <h2 class="mb-4">{{ resume.education.title }}</h2>
+                    <div class="row g-4">
+                        {% for education in resume.education.items %}
+                            {% include "../partials/resume/education.html.njk" %}
+                        {% endfor %}
+                        {% if cv_full %}
+                            {% for education in resume.education.items_secondary %}
+                                {% include "../partials/resume/education.html.njk" %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mb-3">
+                    <h2 class="mb-3">{{ resume.skills.title }}</h2>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        {% for skill in resume.skills.technical %}
+                            {% include "../partials/resume/skill.html.njk" %}
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mb-3">
+                    <h2 class="mb-3">{{ resume.languages.title }}</h2>
+                    <div class="row">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            {% for lang in resume.languages.items %}
+                                {% include "../partials/resume/lang.html.njk" %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 mb-3">
+                    <h2 class="mb-4">{{ resume.interests.title }}</h2>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        {% for interest in resume.interests.items %}
+                            {% include "../partials/resume/interest.html.njk" %}
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
