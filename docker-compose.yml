@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
       # Select build stage dynamically (dev or prod, defaults to dev)
       target: ${BUILD_TARGET:-dev}
-    container_name: ${CONTAINER_NAME_WEB}
+    container_name: ${CONTAINER_NAME_WEB}-${BUILD_TARGET}
     working_dir: /app
     ports:
       # Map host and container ports
