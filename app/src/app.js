@@ -13,17 +13,6 @@
  * @since 2025-10-07
  */
 
-/**
- * @file Express application setup.
- * @description
- * Initializes the Express app with:
- * - Middleware stack
- * - Static asset serving
- * - Nunjucks templating
- * - Route mounting
- * - Global error handling
- */
-
 const express = require("express");
 const nunjucks = require("nunjucks");
 const path = require("path");
